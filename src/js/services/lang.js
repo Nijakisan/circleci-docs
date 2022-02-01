@@ -47,7 +47,7 @@ const setLanguageSelectorOnLoad = () => {
     languages['en'];
   $(currentLang.domEl)
     .children('.select-lang-wrap')
-    .toggleClass('no-display', false);
+    .toggleClass('not-visible', false);
 };
 
 //  Reloads and changes the site to the selected language on click from the language dropdown
