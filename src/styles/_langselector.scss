@@ -61,10 +61,8 @@ $nav-bg: #F3F3F3 !default;
   }
 
   .lang-dropdown {
-    width: 168px;
+    width: 170px;
     margin-top: 4px;
-    position: relative;
-    left: 3px;
   }
 
   .lang-option {
@@ -91,9 +89,12 @@ $nav-bg: #F3F3F3 !default;
     }
     .select-lang-wrap {
       color: $btn-outer-green;
-      padding: 0 3px;
+      padding: 0 2px 0 2px;
       @media (max-width: $screen-xs-max) {
         display: none;
+      }
+      > img {
+        padding: 0 0 3px 2px;
       }
     }
   }
