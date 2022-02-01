@@ -89,9 +89,11 @@ $nav-bg: #F3F3F3 !default;
     }
     .select-lang-wrap {
       color: $btn-outer-green;
-      padding-right: 3px;
       @media (max-width: $screen-xs-max) {
         display: none;
+      }
+      > img {
+        padding: 0 0 4px 3px;
       }
     }
   }
